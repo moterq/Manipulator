@@ -1,8 +1,8 @@
 header {
-  /*
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),    url(../img/photo_2020-03-17_01-48-45.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/photo_2020-03-17_01-48-45.jpg) no-repeat;
   background-size: 100% 100%;
-  background-attachment: fixed; */
+  background-attachment: fixed;
   width: 100vw;
   height: 100vh;
 
@@ -10,40 +10,7 @@ header {
   transform: scale(1.1);
   font-family: "Play", sans-serif;
 }
-.header-text {
-  overflow: hidden;
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
 
-  width: 100vw;
-  height: 95.5vh;
-  padding: 20px 0px;
-
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header-text:before {
-  content: "";
-  background-image: url(../img/photo_2020-03-17_01-48-45.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
-}
 .header-p {
   position: relative;
   z-index: 2;
@@ -187,10 +154,10 @@ header {
 
 @media screen and (max-device-width: 930px) {
   header {
-    /*
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),    url(../img/photo_2020-03-17_01-48-45.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/photo_2020-03-17_01-48-45.jpg) no-repeat;
     background-size: 100% 100%;
-    background-attachment: fixed; */
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
 
@@ -199,40 +166,6 @@ header {
     font-family: "Play", sans-serif;
   }
 
-  .header-text {
-    overflow: hidden;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-
-    width: 100vw;
-    height: 95.6vh;
-    padding: 20px 0px;
-
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .header-text:before {
-    content: "";
-    background-image: url(../img/photo_2020-03-17_01-48-45.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    z-index: 1;
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-  }
   .header-p {
     position: relative;
     z-index: 2;
