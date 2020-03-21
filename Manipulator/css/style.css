@@ -1,0 +1,20 @@
+@import url(./normalize.css);
+@import url(./menu.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./section.css);
+@import url(./main-about__us.css);
+@import url(./main-about__manipulator.css);
+@import url(./main-footer.css);
+
+@import url("https://fonts.googleapis.com/css?family=Play:400,700&display=swap&subset=cyrillic");
+html,
+body {
+  overflow: hidden !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Play", sans-serif;
+}
