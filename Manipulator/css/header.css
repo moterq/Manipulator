@@ -158,9 +158,9 @@ header {
       url(../img/photo_2020-03-17_01-48-45.jpg) no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-    width: 100%;
+    width: 100vw;
     /* height: 100vh; */
-    height: 50%;
+    height: 80vh;
 
     position: absolute;
     transform: scale(1.1);
