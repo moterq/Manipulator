@@ -1,6 +1,6 @@
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/photo_2020-03-17_01-48-45.jpg) no-repeat;
+  background: url(../img/effect-bacground.jpg) no-repeat;
+
   background-size: 100% 100%;
   background-attachment: fixed;
   width: 100vw;
@@ -154,28 +154,14 @@ header {
 
 @media screen and (max-device-width: 930px) {
   header {
-    background: url(../img/photo_2020-03-17_01-48-45.jpg) no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    width: 100vw !important;
-    /* height: 100vh; */
-    height: 100vh !important;
+    background: url(../img/blurred-adaptive.png) no-repeat;
 
-    position: absolute;
+    -webkit-background-size: 100% 100%;
+    width: 100% !important;
+    height: 100% !important;
     font-family: "Play", sans-serif;
   }
 
-  header:before {
-    background: url(../img/photo_2020-03-17_01-48-45.jpg) no-repeat;
-    background-size: 100% 100%;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    z-index: -1;
-  }
   .header-p {
     position: relative;
     z-index: 2;
@@ -236,7 +222,7 @@ header {
 
   .chevron {
     position: absolute;
-    margin-bottom: 0px;
+    margin-bottom: -70px;
     left: 47.9%;
     right: 0;
     bottom: 0;
