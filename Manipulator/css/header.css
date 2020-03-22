@@ -160,10 +160,9 @@ header {
     background-attachment: fixed;
     width: 100vw !important;
     /* height: 100vh; */
-    height: 80vh !important;
+    height: 100vh !important;
 
     position: absolute;
-    transform: scale(1.1);
     font-family: "Play", sans-serif;
   }
 
