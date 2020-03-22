@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   height: 100%;
-  padding-top: 15%;
 }
 /* .main-about__us_border {
   border: black 1px solid;

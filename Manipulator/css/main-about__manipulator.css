@@ -160,7 +160,7 @@
     );
     background-size: 42.426406871px 42.426406871px;
     width: 320px !important;
-    height: 220px !important;
+    height: 192px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,7 +176,7 @@
     */
     background-color: #fff;
     width: 310px;
-    height: 210px;
+    height: 182px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
