@@ -138,12 +138,12 @@
   .main-about__manipulator {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 100%;
     width: 100%;
     margin: 0 auto;
-
+    padding-bottom: 15%;
     background-color: #fff !important;
   }
   .main-about__manipulator_char {
@@ -256,7 +256,7 @@
     );
     background-size: 42.426406871px 42.426406871px;
     width: 90% !important;
-    height: 40% !important;
+    height: 50% !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,8 +270,8 @@
   }
   .main-about__manipulator_form_gradient {
     background: #fff;
-    height: 97% !important;
-    width: 97.5% !important;
+    height: 96.5%;
+    width: 97.5%;
     display: flex;
     align-items: center;
     justify-content: space-around;
