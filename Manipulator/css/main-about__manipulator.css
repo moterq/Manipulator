@@ -162,7 +162,7 @@
     /* width: 320px !important;
     height: 192px !important; */
     width: 90% !important;
-    height: 30% !important;
+    height: 100px !important;
     /* margin-left: 5% !important;
     margin-right: 5% !important; */
     /* margin-bottom: 5% !important; */
@@ -257,7 +257,7 @@
     );
     background-size: 42.426406871px 42.426406871px;
     width: 90% !important;
-    height: 30% !important;
+    height: 300px !important;
     display: flex;
     align-items: center;
     justify-content: center;
