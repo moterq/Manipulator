@@ -138,12 +138,13 @@
   .main-about__manipulator {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 10% !important;
+    padding-top: 5% !important;
+    /* padding-bottom: 5% !important; */
     background-color: #fff !important;
   }
   .main-about__manipulator_char {
