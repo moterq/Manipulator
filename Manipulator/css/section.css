@@ -1,6 +1,6 @@
 section {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   margin: 0 auto;
 }
 @media screen and (max-device-width: 930px) {

@@ -143,7 +143,6 @@
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    padding-top: 5% !important;
     /* padding-bottom: 5% !important; */
     background-color: #fff !important;
   }
@@ -258,7 +257,7 @@
     );
     background-size: 42.426406871px 42.426406871px;
     width: 90% !important;
-    height: 50% !important;
+    height: 40% !important;
     display: flex;
     align-items: center;
     justify-content: center;
