@@ -228,15 +228,15 @@
     -webkit-animation: fadeInRight 0.4s cubic-bezier(0.42, 0.83, 0.7, 1.5)
       forwards;
     animation: fadeInRight 0.4s cubic-bezier(0.42, 0.83, 0.7, 1.5) forwards;
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
     -webkit-transform: rotate(-7deg);
     transform: rotate(-7deg);
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
     z-index: 5;
   }
-  .overlay.open li:nth-of-type(2) {
+  /* .overlay.open li:nth-of-type(2) {
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
   }
@@ -251,7 +251,7 @@
   .overlay.open li:nth-of-type(5) {
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-  }
+  } */
   .open {
     display: flex;
     align-items: center;
