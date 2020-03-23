@@ -227,8 +227,8 @@
     display: block;
     animation: fadeInRight 0.4s cubic-bezier(0, 0, 0, 0) forwards;
     -webkit-animation: fadeInRight 0.4s cubic-bezier(0, 0, 0, 0) forwards;
-    -webkit-animation-delay: 0.1s;
-    animation-delay: 0.1s;
+    /* -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s; */
     /*-webkit-transform: rotate(-7deg);
     transform: rotate(-7deg);
     */ /*-webkit-transform-origin: right bottom;
