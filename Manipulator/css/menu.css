@@ -132,7 +132,7 @@
   .navBurger {
     position: fixed;
     right: 20px;
-    top: 15px;
+    top: 20px;
     cursor: pointer;
     background: #fcc736;
     box-sizing: border-box;
