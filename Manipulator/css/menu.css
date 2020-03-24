@@ -235,11 +235,11 @@
   }
   .overlay.open li {
     display: block;
-    animation: fadeInRight 0.4s cubic-bezier(0, 0, 0, 0) forwards;
-    -webkit-animation: fadeInRight 0.4s cubic-bezier(0, 0, 0, 0) forwards;
-    /* -webkit-animation-delay: 0.1s;
-    animation-delay: 0.1s; */
-    /*-webkit-transform: rotate(-7deg);
+    animation: fadeInRight 0.4s cubic-bezier(0, 0, 0, 0) both;
+    -webkit-animation: fadeInRight 0.4s cubic-bezier(0, 0, 0, 0) both;
+    /*-webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+    */ /*-webkit-transform: rotate(-7deg);
     transform: rotate(-7deg);
     */ /*-webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -377,7 +377,8 @@
 @media screen and (min-device-width: 930px) {
   #navToggle,
   .overlay,
-  .navBurger {
+  .navBurger,
+  .logo-adaptive-screen {
     display: none;
   }
 }
