@@ -148,7 +148,6 @@
     overflow: scroll !important;
   }
   .main-about__manipulator_char {
-    width: 300px;
     background: linear-gradient(
       -45deg,
       #fcc736 25%,
@@ -166,6 +165,7 @@
     /* margin-left: 5% !important;
     margin-right: 5% !important; */
     /* margin-bottom: 5% !important; */
+    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
