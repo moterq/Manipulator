@@ -119,6 +119,16 @@
     display: none;
   }
 
+  .logo-adaptive-screen {
+    position: fixed;
+    z-index: 5;
+    left: 10px;
+    top: 17px;
+  }
+  .logo-adaptive-screen img {
+    width: 40px;
+  }
+
   .navBurger {
     position: fixed;
     right: 20px;

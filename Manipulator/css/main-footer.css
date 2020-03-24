@@ -175,10 +175,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 25px;
   }
   .footer__char {
-    width: 300px;
     background: linear-gradient(
       -45deg,
       #fcc736 25%,
@@ -189,8 +187,14 @@
       #000 0
     );
     background-size: 42.426406871px 42.426406871px;
-    width: 320px !important;
-    height: 420px !important;
+    /* width: 320px !important;
+    height: 192px !important; */
+    width: 90% !important;
+    height: 350px !important;
+    margin-bottom: 10%;
+    /* margin-left: 5% !important;
+    margin-right: 5% !important; */
+    /* margin-bottom: 5% !important; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,10 +207,14 @@
   }
   .footer__gradient {
     /*background: #413315;
-        */
+    */
     background-color: #fff;
-    width: 305px !important;
-    height: 405px !important;
+    /* width: 310px;
+    height: 182px; */
+    height: 340px;
+    width: 97.5%;
+    /* margin-left: 5% !important;
+    margin-right: 5% !important; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -216,6 +224,7 @@
     -moz-border-radius: 1.25%;
     -ms-border-radius: 1.25%;
     -o-border-radius: 1.25%;
+    -webkit-border-radius: 1.25%;
   }
 
   .footer__gradient h3 {
@@ -243,9 +252,7 @@
   }
 
   .chevron2 {
-    position: absolute;
-    margin-bottom: 0px;
-    left: 49%;
+    left: 46.09%;
     right: 0;
     bottom: 0;
     width: 28px;
