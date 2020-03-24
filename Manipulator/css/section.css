@@ -3,7 +3,7 @@ section {
   height: 100vh;
   margin: 0 auto;
 }
-@media screen and (max-device-width: 930px) {
+@media screen and (max-device-width: 765px) {
   section {
     width: 100vw;
     height: 100vh;

@@ -152,7 +152,7 @@ header {
 
 /***************MEDIA*************/
 
-@media screen and (max-device-width: 930px) {
+@media screen and (max-device-width: 765px) {
   header {
     background: url(../img/blurred-adaptive.png) no-repeat;
 
