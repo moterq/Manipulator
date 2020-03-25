@@ -126,6 +126,12 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  text-overflow: ellipsis;
+}
+
+.error {
+  border: 3px solid red !important;
+  color: red;
 }
 
 /******************MEDIA***************/

@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 $method = $_SERVER['REQUEST_METHOD'];
 
@@ -50,3 +50,33 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 'Reply-To: '.$admin_email.'' . PHP_EOL;
 
 mail($admin_email, adopt($form_subject), $message, $headers );
+
+
+/* https://api.telegram.org/bot1096437821:AAEPKF0pFgL3wltvg7hSgKgTw8bwIQWea7U/getUpdates,
+где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
+
+$name = $_POST['Name'];
+$phone = $_POST['Phone'];
+$email = $_POST['E-mail'];
+$token = "1096437821:AAEPKF0pFgL3wltvg7hSgKgTw8bwIQWea7U";
+$chat_id = "-409003029";
+$arr = array(
+  'Имя заказчика: ' => $name,
+  'Телефон: ' => $phone,
+  'E-mail' => $email
+);
+
+foreach($arr as $key => $value) {
+  $txt .= "<b>".$key."</b> ".$value."%0A";
+};
+
+$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
+
+if ($sendToTelegram) {
+  header('Location: index.html');
+} else {
+  echo "Error";
+}
+
+?>
+

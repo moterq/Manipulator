@@ -11,22 +11,22 @@
   </head>
   <body>
     <ul data-aos="fade-down" id="menu">
-        <a href="#block1"><li data-menuanchor="block1" class="menu-button">Главная</li></a>
-        <a href="#block2"><li data-menuanchor="block2" class="menu-button">Как мы работаем</li></a>
-        <a href="#block3"><li data-menuanchor="block3" class="menu-button__buy">Заказать</li></a>
-        <a href="#block4"><li data-menuanchor="block4" class="menu-button">С чем мы работаем</li></a>
-        <a href="#block5"><li data-menuanchor="block5" class="menu-button">Контакты</li></a>
+        <a href="#Main"><li data-menuanchor="block1" class="menu-button">Главная</li></a>
+        <a href="#AboutUs"><li data-menuanchor="block2" class="menu-button">Как мы работаем</li></a>
+        <a href="#Request"><li data-menuanchor="block3" class="menu-button__buy">Заказать</li></a>
+        <a href="#AboutTransport"><li data-menuanchor="block4" class="menu-button">С чем мы работаем</li></a>
+        <a href="#Contacts"><li data-menuanchor="block5" class="menu-button">Контакты</li></a>
 
     </ul>
 
     <div class="overlay">
         <nav class="overlayMenu">  
             <ul role="menu">
-                <li><a href="#block1" role="menuitem">Главная</a></li>
-                <li><a href="#block2" role="menuitem">Как мы работаем</a></li>
-                <li><a href="#block3" role="menuitem">Заказать</a></li>
-                <li><a href="#block4" role="menuitem">С чем мы работаем</a></li>
-                <li><a href="#block5" role="menuitem">Контакты</a></li>
+                <li><a href="#Main" role="menuitem">Главная</a></li>
+                <li><a href="#AboutUs" role="menuitem">Как мы работаем</a></li>
+                <li><a href="#Request" role="menuitem">Заказать</a></li>
+                <li><a href="#AboutTransport" role="menuitem">С чем мы работаем</a></li>
+                <li><a href="#Contacts" role="menuitem">Контакты</a></li>
             </ul>
         </nav>
     </div>
@@ -35,10 +35,10 @@
 
     <div id="fullpage">
         
-     <div  class="logo-adaptive-screen"><a href="#block3"><img src="./img/icons/LogoMoter.png"></a></div>   
+     <div  class="logo-adaptive-screen"><a href="#Request"><img src="./img/icons/LogoMoter.png"></a></div>   
     
     <div class="main" id="fullpage">
-      <header  class="section" >
+      <header data-anchor="Main"  class="section" >
         <div  class="header-text">
           <div  class="header-text__gradient">
             <div class="header-p">
@@ -49,7 +49,7 @@
              <a href="tel:+375298705020"><h1>+375 (29) 870-50-20 </h1></a>
              
 
-             <a href="#block2"> 
+             <a href="#AboutUs"> 
                 <div  class="container">
                     <div class="chevron"></div>
                     <div class="chevron"></div>
@@ -65,7 +65,7 @@
         </div>
       </header>
 
-      <section  class="section" >
+      <section data-anchor="AboutUs"  class="section" >
         <div data-aos="zoom-in-down"  class="main-about__us">
           <div class="main-about__us_adaptive" >
             <div class="gradient">
@@ -110,7 +110,7 @@
           </div>
         </div>
       </section>
-      <section  class="section">
+      <section data-anchor="Request"  class="section">
         <div class="main-about__manipulator">
             
           <div data-aos="fade-right" class="main-about__manipulator_char">
@@ -132,28 +132,46 @@
           <div data-aos="fade-left" class="main-about__manipulator_form">
             <div class="main-about__manipulator_form_gradient">
               <h2>Оставить заявку</h2>
-              <form>
+              <!-- <form>
                 <input type="hidden" name="project_name" value="Site Name" />
                 <input
                   type="hidden"
                   name="admin_email"
-                  value="admin@mail.com"
+                  value="schoolfootball2004@yandex.ru"
                 />
                 <input type="hidden" name="form_subject" value="Form Subject" />
 
                 <input type="text" name="Name" placeholder="You name..." />
                 <br />
-                <input type="text" name="E-mail" placeholder="You E-mail..." />
+                <input id="mail" type="text" name="E-mail" placeholder="You E-mail..." />
                 <br />
                 <input type="text" name="Phone" placeholder="You phone..." />
                 <br />
                 <button>Send</button>
-              </form>
+              </form> -->
+               <form action="telegram.php" method="POST"> 
+                <input type="hidden" name="project_name" value="Site Name" />
+                <input
+                  type="hidden"
+                  name="admin_email"
+                  value="schoolfootball2004@yandex.ru"
+                />
+                <input type="hidden" name="form_subject" value="Form Subject" />
+
+                <input type="text" name="Name" placeholder="Ваше Имя" />
+                <br />
+                <input id="mail" type="text" name="E-mail" placeholder="Ваш E-mail" />
+                <br />
+                <input type="text" name="Phone"  placeholder="Ваш телефон с кодом" />
+                <br />
+                <button>Send</button>
+              </form> 
+
             </div>
           </div>
         </div>
       </section>
-      <section class="section" >
+      <section data-anchor="AboutTransport" class="section" >
         <div data-aos="zoom-in-down"  class="main-about__us">
           <div class="main-about__us_adaptive2" >
             <div class="gradient">
@@ -199,7 +217,7 @@
         </div>
       </section>
 <!--  -->
-<section class="section">
+<section data-anchor="Contacts" class="section">
     <div data-aos="zoom-in-down" class="main-footer">
         <img data-aos="fade-down" src="./img/icons/hook.png" style="width: 50px;">
         <div  class="footer__char">
@@ -217,7 +235,7 @@
                 </p>
             </div>
           </div>
-         <a href="#block1"> <div  class="container2">
+         <a href="#Main"> <div  class="container2">
             <div class="chevron2"></div>
             <div class="chevron2"></div>
             <div class="chevron2"></div>
@@ -244,15 +262,9 @@
   
     <script>
         AOS.init();
-        // $(document).ready(function() {
-        //   $("#fullpage").fullpage({
-        //     scrollBar: true
-        //   });
-         
-        // });
-        $(document).ready(function() {
-  $("#fullpage").fullpage({
-    anchors: ["block1", "block2", "block3", "block4", "block5"],
+    $(document).ready(function() {
+    $("#fullpage").fullpage({
+    anchors: ["Main", "AboutUs", "Request", "AboutTransport", "Contacts"],
     menu: "#menu",
     css3: true,
     scrollBar:true
@@ -260,6 +272,8 @@
 });
       </script>
     <script src="./js/script.js"></script>
+    <script src="./js/validation.js"></script>
+
   </body>
 </html>
 
