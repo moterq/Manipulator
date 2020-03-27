@@ -52,8 +52,7 @@ $headers = "MIME-Version: 1.0" . PHP_EOL .
 mail($admin_email, adopt($form_subject), $message, $headers );
 
 
-/* https://api.telegram.org/bot1096437821:AAEPKF0pFgL3wltvg7hSgKgTw8bwIQWea7U/getUpdates,
-где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
+/* https://api.telegram.org/bot1096437821:AAEPKF0pFgL3wltvg7hSgKgTw8bwIQWea7U/getUpdates - токен бота */
 
 $name = $_POST['Name'];
 $phone = $_POST['Phone'];

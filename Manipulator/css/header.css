@@ -1,13 +1,10 @@
 header {
   background: url(../img/effect-bacground.jpg) no-repeat;
-
   background-size: 100% 100%;
   background-attachment: fixed;
   width: 100vw;
   height: 100vh;
-
   position: absolute;
-
   font-family: "Play", sans-serif;
 }
 
@@ -18,15 +15,8 @@ header {
   flex-direction: column;
   text-align: center;
   color: #fcc736;
-  /* text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-    black 1px -1px 0; */
   font-size: 26px;
   font-family: "Play", sans-serif;
-
-  /* border: 2px solid  */
-
-  /* background-color: rgba(0, 0, 0, 0.2); */
-  /* box-shadow: 0px 0px 50px black; */
 }
 .header-p h1 {
   font-size: 58px;
@@ -44,18 +34,11 @@ header {
   color: #fcc736;
 }
 .header-p p {
-  /* color: #000; */
   font-size: 22px;
   font-weight: 900;
-
-  /* text-shadow: #000 1px 1px 0, #000 -1px -1px 0, #000 -1px 1px 0,
-    #000 1px -1px 0; */
   margin: 0;
   letter-spacing: 0.05em;
-  /* -webkit-text-stroke: 0.5px #fcc736; */
-
   color: #fcc736;
-
   text-shadow: -0 -0.5px 1px #000000, 0 -0.5px 0.5px #000000,
     -0 0.5px 0.5px #000000, 0 0.5px 0.5px #000000, -0.5px -0 0.5px #000000,
     0.5px -0 0.5px #000000, -0.5px 0 0.5px #000000, 0.5px 0 0.5px #000000,
@@ -68,8 +51,6 @@ header {
 /**/
 
 .container {
-  /* width: 24px;
-  height: 24px; */
   margin: 0;
   padding: 0;
 }
@@ -77,14 +58,12 @@ header {
 .chevron {
   position: absolute;
   margin-bottom: -70px;
-  /* left: 47.9%; */
   left: 49%;
   right: 0;
   bottom: 0;
   width: 28px;
   height: 8px;
   opacity: 0;
-  /* transform: scale3d(0.5, 0.5, 0.5); */
   animation: move 3s ease-out infinite;
 }
 
@@ -101,11 +80,9 @@ header {
   content: " ";
   position: absolute;
   top: 0;
-
   height: 100%;
   width: 51%;
   background: #fcc736;
-  /* border: 0.5px solid #000; */
 }
 
 .chevron:before {
@@ -156,7 +133,7 @@ header {
 @media screen and (max-device-width: 765px) {
   header {
     background: url(../img/blurred-adaptive.png) no-repeat;
-
+    background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     width: 100% !important;
     height: 100% !important;
@@ -171,14 +148,8 @@ header {
     text-align: center;
     justify-content: center;
     color: #fcc736;
-    /* text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-    black 1px -1px 0; */
     font-family: "Play", sans-serif;
-
-    /* border: 2px solid  */
     margin-top: -15%;
-    /* background-color: rgba(0, 0, 0, 0.2); */
-    /* box-shadow: 0px 0px 50px black; */
   }
   .header-p h1 {
     font-size: 28px;
@@ -198,20 +169,14 @@ header {
     color: #fcc736;
   }
   .header-p p {
-    /* color: #000; */
     font-size: 22px;
     font-weight: 900;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 10%;
     padding-bottom: 10%;
-
-    /* text-shadow: #000 1px 1px 0, #000 -1px -1px 0, #000 -1px 1px 0,
-    #000 1px -1px 0; */
     margin: 0;
     letter-spacing: 0.05em;
-    /* -webkit-text-stroke: 0.5px #fcc736; */
-
     color: #fcc736;
 
     /* text-shadow: -0 -0.5px 1px #000000, 0 -0.5px 0.5px #000000,
@@ -239,7 +204,6 @@ header {
     width: 28px;
     height: 8px;
     opacity: 0;
-    /* transform: scale3d(0.5, 0.5, 0.5); */
     animation: move 3s ease-out infinite;
   }
 }

@@ -17,7 +17,7 @@ $(document).ready(function() {
   });
 });
 
-/*******telephone */
+/*******tel*******/
 
 window.addEventListener("DOMContentLoaded", function() {
   [].forEach.call(document.querySelectorAll(".tel"), function(input) {

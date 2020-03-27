@@ -13,30 +13,22 @@
   z-index: 10;
   list-style: none;
   font-size: 20px;
-  /* background-color: rgba(0, 0, 0, 0.5); */
 }
-#menu a {
+#menu p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-button a {
   text-decoration: none;
-  color: #fcc736;
 }
-
-.menu-button {
-  /* text-shadow: -0 -0.5px 1px #000000, 0 -0.5px 0.5px #000000,
-    -0 0.5px 0.5px #000000, 0 0.5px 0.5px #000000, -0.5px -0 0.5px #000000,
-    0.5px -0 0.5px #000000, -0.5px 0 0.5px #000000, 0.5px 0 0.5px #000000,
-    -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
-    -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000,
-    -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
-    -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000; */
-
-  /* text-shadow: -0 -0.7px 0.7px #000000, 0 -0.7px 0.7px #000000,
-    -0 0.7px 0.7px #000000, 0 0.7px 0.7px #000000, -0.7px -0 0.7px #000000,
-    0.7px -0 0.7px #000000, -0.7px 0 0.7px #000000, 0.7px 0 0.7px #000000,
-    -0.7px -0.7px 0.7px #000000, 0.7px -0.7px 0.7px #000000,
-    -0.7px 0.7px 0.7px #000000, 0.7px 0.7px 0.7px #000000,
-    -0.7px -0.7px 0.7px #000000, 0.7px -0.7px 0.7px #000000,
-    -0.7px 0.7px 0.7px #000000, 0.7px 0.7px 0.7px #000000; */
-
+.menu-button__buy a {
+  text-decoration: none;
+}
+.menu-button__buy a:hover {
+  text-decoration: none;
+}
+.menu-button p {
   text-shadow: -0 -0.6px 1px #000000, 0 -0.6px 0.6px #000000,
     -0 0.6px 0.6px #000000, 0 0.6px 0.6px #000000, -0.6px -0 0.6px #000000,
     0.6px -0 0.6px #000000, -0.6px 0 0.6px #000000, 0.6px 0 0.6px #000000,
@@ -47,13 +39,15 @@
 
   padding: 5px 20px;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fcc736;
+  font-size: 20px;
 }
-/* .menu-button img {
-  width: 20px;
-} */
-.menu-button:hover {
-  font-weight: 900;
+
+.menu-button p:hover {
+  font-weight: bold;
+  font-size: 20px;
 
   transition: all 0.1s;
   background: rgba(0, 0, 0, 0.5);
@@ -65,6 +59,7 @@
     -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
     1px 1px 1px #000000;
   color: #fcc736;
+  text-decoration: none;
   -webkit-transition: all 0.1s;
   -moz-transition: all 0.1s;
   -ms-transition: all 0.1s;
@@ -75,7 +70,7 @@
   -ms-border-radius: 5px 5px 5px 5px;
   -o-border-radius: 5px 5px 5px 5px;
 }
-.menu-button__buy {
+.menu-button__buy p {
   font-weight: 900;
   margin-left: 30px;
   color: black;
@@ -86,9 +81,9 @@
   -moz-border-radius: 5px 5px 5px 5px;
   -ms-border-radius: 5px 5px 5px 5px;
   -o-border-radius: 5px 5px 5px 5px;
-  /* border: 1px solid #000; */
   animation: radial-pulse 1s infinite;
   -webkit-animation: radial-pulse 1s infinite;
+  text-decoration: none;
 }
 @keyframes radial-pulse {
   0% {
@@ -100,7 +95,7 @@
   }
 }
 
-.menu-button__buy:hover {
+.menu-button__buy p:hover {
   border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
@@ -112,17 +107,15 @@
   -ms-transition: all 0.1s;
   -o-transition: all 0.1s;
   background: rgba(0, 0, 0, 0.5);
-  color: #fcc736;
+  color: #fcc736 !important;
   font-weight: 900;
-  /* -webkit-text-stroke: 1px #000; */
-
+  text-decoration: none;
   text-shadow: -0 -1px 1px #000000, 0 -1px 1px #000000, -0 1px 1px #000000,
     0 1px 1px #000000, -1px -0 1px #000000, 1px -0 1px #000000,
     -1px 0 1px #000000, 1px 0 1px #000000, -1px -1px 1px #000000,
     1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000,
     -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
     1px 1px 1px #000000;
-  /* border: 1px solid #fcc736; */
 }
 
 @media screen and (max-device-width: 930px) {
@@ -187,6 +180,7 @@
     filter: blur(25px);
     -webkit-filter: blur(25px);
     transition-duration: 0.1s;
+    transition: 0.1s;
     -webkit-transition: 0.1s;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
@@ -258,29 +252,8 @@
     -webkit-animation: fadeInRight 0.1s cubic-bezier(0, 0, 0, 0) both;
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s;
-    /*-webkit-transform: rotate(-7deg);
-    transform: rotate(-7deg);
-    */ /*-webkit-transform-origin: right bottom;
-    transform-origin: right bottom;
-    */
     z-index: 5;
   }
-  /* .overlay.open li:nth-of-type(2) {
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-  }
-  .overlay.open li:nth-of-type(3) {
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
-  }
-  .overlay.open li:nth-of-type(4) {
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-  }
-  .overlay.open li:nth-of-type(5) {
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-  } */
   .open {
     display: flex;
     align-items: center;
@@ -290,8 +263,6 @@
   .overlayMenu {
     position: absolute;
     text-align: right;
-    /* right: 5%;
-    bottom: 20%; */
     z-index: 5;
     display: flex;
     align-items: center;
@@ -310,7 +281,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
     flex-direction: column;
   }
   .overlayMenu ul li {
@@ -322,13 +292,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     flex-direction: column;
   }
   .overlayMenu ul li a {
     display: inline-block;
-    /*border: 1px solid #000;
-    */
     color: #fcc736;
     text-decoration: none;
     font-size: 30px;
@@ -345,19 +312,11 @@
       1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000,
       -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
       1px 1px 1px #000000;
-    /* transition: 5s;
-    -webkit-transition: 5s;
-    -moz-transition: 5s;
-    -ms-transition: 5s;
-    -o-transition: 5s; */
     text-align: center;
   }
   .overlayMenu ul li a:hover,
   .overlayMenu ul li a:active,
   .overlayMenu ul li a:focus {
-    /* -webkit-transform: translateX(-2px);
-    transform: translateX(-2px);
-    padding-left: 80px; */
     outline: 1px solid #fcc736;
     background: rgba(0, 0, 0, 0.1);
     z-index: 5;
@@ -368,11 +327,9 @@
     overflow: hidden;
   }
 
-  @-webkit-keyframes fadeInRight {
+  @keyframes fadeInRight {
     0% {
       opacity: 0;
-      /* left: 50px;
-      top: -50px; */
     }
     100% {
       opacity: 1;
@@ -382,19 +339,18 @@
       transform: rotate(0deg);
     }
   }
-
-  /* @keyframes fadeInRight {
+  @-webkit-keyframes fadeInRight {
     0% {
       opacity: 0;
-      left: 50px;
     }
     100% {
       opacity: 1;
       left: 0;
+      top: 0px;
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
     }
-  } */
+  }
 }
 
 @media screen and (min-device-width: 930px) {

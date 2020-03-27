@@ -33,8 +33,6 @@
   -o-border-radius: 2.5%;
 }
 .footer__gradient {
-  /*background: #413315;
-  */
   background-color: #fff;
   width: 580px;
   height: 380px;
@@ -72,8 +70,6 @@
 
 /**/
 .container2 {
-  /* width: 24px;
-    height: 24px; */
   margin: 0;
   padding: 0;
 }
@@ -87,7 +83,6 @@
   width: 28px;
   height: 8px;
   opacity: 0;
-  /* transform: scale3d(0.5, 0.5, 0.5); */
   animation: move2 3s ease-out infinite;
   -webkit-animation: move2 3s ease-out infinite;
 }
@@ -111,7 +106,6 @@
   height: 100%;
   width: 51%;
   background: #fcc736;
-  /* border: 0.5px solid #000; */
 }
 
 .chevron2:before {
@@ -189,10 +183,16 @@
 .footer-p {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
+  flex-direction: column;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+.footer__text_two {
+  margin-top: -16px;
 }
 .footer-button {
   display: flex;
@@ -242,13 +242,6 @@
   color: #fdba00;
   opacity: 1 !important;
   font-weight: bold;
-  /* text-shadow: -0 -0.5px 1px #000000, 0 -0.5px 0.5px #000000,
-    -0 0.5px 0.5px #000000, 0 0.5px 0.5px #000000, -0.5px -0 0.5px #000000,
-    0.5px -0 0.5px #000000, -0.5px 0 0.5px #000000, 0.5px 0 0.5px #000000,
-    -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
-    -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000,
-    -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
-    -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000; */
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
@@ -283,14 +276,9 @@
       #000 0
     );
     background-size: 42.426406871px 42.426406871px;
-    /* width: 320px !important;
-    height: 192px !important; */
     width: 90% !important;
     height: 350px !important;
     margin-bottom: 10%;
-    /* margin-left: 5% !important;
-    margin-right: 5% !important; */
-    /* margin-bottom: 5% !important; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,19 +290,13 @@
     -o-border-radius: 2.5%;
   }
   .footer__gradient {
-    /*background: #413315;
-    */
     background-color: #fff;
-    /* width: 310px;
-    height: 182px; */
     height: 340px;
     width: 97.5%;
-    /* margin-left: 5% !important;
-    margin-right: 5% !important; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 1.25%;
     -webkit-border-radius: 1.25%;
     -moz-border-radius: 1.25%;
@@ -341,8 +323,6 @@
 
   /* CHEVRONE */
   .container2 {
-    /* width: 24px;
-          height: 24px; */
     margin: 0;
     padding: 0;
   }
@@ -354,7 +334,7 @@
     width: 28px;
     height: 8px;
     opacity: 0;
-    /* transform: scale3d(0.5, 0.5, 0.5); */
+
     animation: move2 3s ease-out infinite;
     -webkit-animation: move2 3s ease-out infinite;
   }
@@ -374,11 +354,9 @@
     content: " ";
     position: absolute;
     top: 0;
-
     height: 100%;
     width: 51%;
     background: #fcc736;
-    /* border: 0.5px solid #000; */
   }
 
   .chevron2:before {
@@ -427,8 +405,8 @@
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 5px;
-    margin-top: 0px !important;
+    margin-bottom: 10px;
+    margin-top: 20px !important;
   }
   .footer-button {
     display: flex;
@@ -438,7 +416,7 @@
     background-color: #fcc736;
   }
   .footer-button {
-    margin-top: 30px;
+    margin-top: 22px;
     color: #000 !important;
     padding: 10px 20px;
     font-size: 18px;
@@ -466,6 +444,9 @@
     -ms-transition: 0.1s;
     -o-transition: 0.1s;
   }
+  .footer__text_two {
+    margin-top: 0;
+  }
   .development {
     margin: 0;
     padding: 0;
@@ -477,13 +458,6 @@
     color: #fdba00;
     opacity: 1 !important;
     font-weight: bold;
-    /* text-shadow: -0 -0.5px 1px #000000, 0 -0.5px 0.5px #000000,
-      -0 0.5px 0.5px #000000, 0 0.5px 0.5px #000000, -0.5px -0 0.5px #000000,
-      0.5px -0 0.5px #000000, -0.5px 0 0.5px #000000, 0.5px 0 0.5px #000000,
-      -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
-      -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000,
-      -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
-      -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000; */
     letter-spacing: 0.2em;
     text-transform: uppercase;
   }
