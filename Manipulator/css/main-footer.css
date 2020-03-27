@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 25px;
 }
 .footer__char {
   width: 300px;
@@ -50,7 +49,12 @@
   -o-border-radius: 1.25%;
 }
 
-.footer__gradient h3 {
+.footer-tel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -164,6 +168,98 @@
     opacity: 1;
   }
 }
+
+.footer-mail {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fcc736;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  text-shadow: -0 -1px 1px #000000, 0 -1px 1px #000000, -0 1px 1px #000000,
+    0 1px 1px #000000, -1px -0 1px #000000, 1px -0 1px #000000,
+    -1px 0 1px #000000, 1px 0 1px #000000, -1px -1px 1px #000000,
+    1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000,
+    -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
+    1px 1px 1px #000000;
+}
+.footer-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #fcc736;
+}
+.footer-button {
+  margin-top: 15px;
+  color: #000 !important;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.footer-button:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fcc736 !important;
+  text-shadow: -0 -1px 1px #000000, 0 -1px 1px #000000, -0 1px 1px #000000,
+    0 1px 1px #000000, -1px -0 1px #000000, 1px -0 1px #000000,
+    -1px 0 1px #000000, 1px 0 1px #000000, -1px -1px 1px #000000,
+    1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000,
+    -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
+    1px 1px 1px #000000;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.development {
+  margin: 0;
+  padding: 0;
+  margin-top: 0px;
+  font-size: 10px;
+  opacity: 0.5;
+}
+.development span {
+  color: #fdba00;
+  opacity: 1 !important;
+  font-weight: bold;
+  /* text-shadow: -0 -0.5px 1px #000000, 0 -0.5px 0.5px #000000,
+    -0 0.5px 0.5px #000000, 0 0.5px 0.5px #000000, -0.5px -0 0.5px #000000,
+    0.5px -0 0.5px #000000, -0.5px 0 0.5px #000000, 0.5px 0 0.5px #000000,
+    -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
+    -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000,
+    -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
+    -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000; */
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.development a {
+  text-decoration: none;
+  color: #fcc736;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+/**Media**/
 
 @media screen and (max-device-width: 930px) {
   .main-footer {
@@ -302,5 +398,98 @@
     -moz-transform: skew(0deg, 30deg);
     -ms-transform: skew(0deg, 30deg);
     -o-transform: skew(0deg, 30deg);
+  }
+
+  .footer-mail {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fcc736;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-shadow: -0 -1px 1px #000000, 0 -1px 1px #000000, -0 1px 1px #000000,
+      0 1px 1px #000000, -1px -0 1px #000000, 1px -0 1px #000000,
+      -1px 0 1px #000000, 1px 0 1px #000000, -1px -1px 1px #000000,
+      1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000,
+      -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
+      1px 1px 1px #000000;
+  }
+  .footer-tel {
+    font-size: 26px;
+  }
+  .footer-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 0px !important;
+  }
+  .footer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fcc736;
+  }
+  .footer-button {
+    margin-top: 30px;
+    color: #000 !important;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  .footer-button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fcc736 !important;
+    text-shadow: -0 -1px 1px #000000, 0 -1px 1px #000000, -0 1px 1px #000000,
+      0 1px 1px #000000, -1px -0 1px #000000, 1px -0 1px #000000,
+      -1px 0 1px #000000, 1px 0 1px #000000, -1px -1px 1px #000000,
+      1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000,
+      -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
+      1px 1px 1px #000000;
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+  }
+  .development {
+    margin: 0;
+    padding: 0;
+    margin-top: -38px;
+    font-size: 10px;
+    opacity: 0.5;
+  }
+  .development span {
+    color: #fdba00;
+    opacity: 1 !important;
+    font-weight: bold;
+    /* text-shadow: -0 -0.5px 1px #000000, 0 -0.5px 0.5px #000000,
+      -0 0.5px 0.5px #000000, 0 0.5px 0.5px #000000, -0.5px -0 0.5px #000000,
+      0.5px -0 0.5px #000000, -0.5px 0 0.5px #000000, 0.5px 0 0.5px #000000,
+      -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
+      -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000,
+      -0.5px -0.5px 0.5px #000000, 0.5px -0.5px 0.5px #000000,
+      -0.5px 0.5px 0.5px #000000, 0.5px 0.5px 0.5px #000000; */
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .development a {
+    text-decoration: none;
+    color: #fcc736;
+    font-weight: bold;
   }
 }

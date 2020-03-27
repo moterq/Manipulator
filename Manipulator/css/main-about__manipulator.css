@@ -80,6 +80,7 @@
 }
 .main-about__manipulator_char_gradient2 p {
   color: #000;
+  font-weight: bold;
 }
 /***/
 
@@ -153,6 +154,7 @@
   cursor: pointer;
   font-weight: Bold;
   font-size: 20px;
+  margin-top: 10px;
 }
 .main-about__manipulator_form button:hover {
   background: rgba(0, 0, 0, 0.5);
@@ -163,7 +165,13 @@
     1px -1px 1px #000000, -1px 1px 1px #000000, 1px 1px 1px #000000,
     -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
     1px 1px 1px #000000;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
 }
+
 .form-text-two {
   color: #000 !important;
   font-weight: bold;
@@ -331,7 +339,7 @@
     cursor: pointer;
     font-weight: Bold;
     font-size: 20px;
-    margin-top: -12.5px;
+    margin-top: -10px;
   }
 
   .main-about__manipulator_form input {
@@ -373,7 +381,7 @@
     letter-spacing: 0.05em;
   }
   .main-about__manipulator_form h2 {
-    font-size: 20px;
+    font-size: 22px;
     color: #fcc736;
     text-shadow: -0 -1px 1px #000000, 0 -1px 1px #000000, -0 1px 1px #000000,
       0 1px 1px #000000, -1px -0 1px #000000, 1px -0 1px #000000,
@@ -387,6 +395,7 @@
   .main-about__manipulator_form form {
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
+    margin-top: -10px;
   }
 
   .main-about__manipulator_form {

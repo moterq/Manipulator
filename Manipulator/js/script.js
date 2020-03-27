@@ -18,23 +18,23 @@ $(document).ready(function() {
   });
 });
 
-/**Links */
+/**Pages**/
 
-// $(document).ready(function() {
-//   $("#fullpage").fullpage({
-//     anchors: ["block1", "block2", "block3", "block4", "block5"],
-//     menu: "#menu",
-//     css3: true,
-//     scrollingSpeed: 1000
-//   });
-// });
+AOS.init(); /*Animation*/
+$(document).ready(function() {
+  $("#fullpage").fullpage({
+    anchors: ["Main", "AboutUs", "Request", "AboutTransport", "Contacts"],
+    menu: "#menu",
+    css3: true,
+    scrollBar: true
+  });
+});
 
-/*Bubble text*/
-
+/**NavBar Mobile**/
 $("#navToggle").click(function() {
   $(this).toggleClass("active");
   $(".overlay").toggleClass("open");
-  // this line ▼ prevents content scroll-behind
+  //
   $("body").toggleClass("open");
 });
 
@@ -48,4 +48,11 @@ $(".overlay a").on("click", function() {
 $("#navToggle").click(function() {
   $(".main").toggleClass("blur");
   $(".main").removeClass("unblur");
+});
+
+$(".logo-adaptive-screen").on("click", function() {
+  $(".overlay").removeClass("open");
+  $("#navToggle").removeClass("active");
+  $(".main").removeClass("blur");
+  $(".main").toggleClass("unblur");
 });

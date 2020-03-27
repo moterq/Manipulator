@@ -87,6 +87,17 @@
   -ms-border-radius: 5px 5px 5px 5px;
   -o-border-radius: 5px 5px 5px 5px;
   /* border: 1px solid #000; */
+  animation: radial-pulse 1s infinite;
+  -webkit-animation: radial-pulse 1s infinite;
+}
+@keyframes radial-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+
+  100% {
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0);
+  }
 }
 
 .menu-button__buy:hover {
@@ -128,7 +139,6 @@
   .logo-adaptive-screen img {
     width: 40px;
   }
-
   .navBurger {
     position: fixed;
     right: 20px;
