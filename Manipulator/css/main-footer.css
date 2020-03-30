@@ -395,6 +395,9 @@
       -1px -1px 1px #000000, 1px -1px 1px #000000, -1px 1px 1px #000000,
       1px 1px 1px #000000;
   }
+  .footer-mail-email {
+    font-size: 20px !important;
+  }
   .footer-tel {
     font-size: 26px;
   }
