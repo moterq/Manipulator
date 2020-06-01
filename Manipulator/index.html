@@ -133,6 +133,7 @@
           <div class="header-text__gradient">
             <div class="header-p">
               <h1>Аренда<br />Kрана-манипулятора</h1>
+              <div style="font-size: 36px; color: red;" id="eyezonButton">Button</div>
               <p>
                 По Бресту и Брестской области<br />
                 От <span>40 рублей</span> в час!
@@ -412,5 +413,38 @@
     <script src="./js/fullpage/jquery.easings.min.js"></script>
     <script src="./js/fullpage/scrolloverflow.min.js"></script>
     <script src="./js/fullpage/jquery.fullPage.min.js"></script>
+    
+    <script>
+      var eyezonGlobal = { function: null, reset: null };
+      (function (w, d, s, o, f, js, fjs) {
+        w["JS-Widget"] = o;
+        w[o] =
+          w[o] ||
+          function () {
+            (w[o].q = w[o].q || []).push(arguments);
+          };
+        (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+        js.id = o;
+        js.src = f;
+        js.async = 1;
+        fjs.parentNode.insertBefore(js, fjs);
+      })(
+        window,
+        document,
+        "script",
+        "mw",
+        "https://storage.googleapis.com/eyezonscript/eyezonwidget.js"
+      );
+      window.onload = mw("install_eyezon", {
+        buttonOnTop: false,
+        businessId: "5ebe8eddb703a707bc23a25b",
+        initialButtonId: "5ecd3743545c4d1703feaad7",
+        targets: [
+          { buttonId: "5ecd3743545c4d1703feaad7", targetId: "eyezonButton" },
+        ],
+        eyezonGlobal: eyezonGlobal,
+      });
+    </script>
+    
   </body>
 </html>
